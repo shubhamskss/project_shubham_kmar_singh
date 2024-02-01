@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropDown</title>
+</head>
+<body>
+    <select id="myDropdown">
+        <option disabled selected>Select an option</option>
+    </select>
+
+    <script>
+       
+        var arr = ['Option 1', 'Option 2', 'Option 3'];
+
+        
+        var dropdown = document.getElementById('myDropdown');
+
+        
+        for (var i = 0; i < arr.length; i++) {
+            var option = document.createElement('option');
+            option.value = arr[i];
+            option.text = arr[i];
+            dropdown.add(option);
+        }
+    </script>
+</body>
+</html>
