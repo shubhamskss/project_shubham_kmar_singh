@@ -1,0 +1,65 @@
+header {display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+#coderflix{
+  
+    color:red
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    display: flex;
+  }
+ 
+  nav ul li {
+    margin-left: 15px;
+    color: #fff;
+  }
+ 
+header ul{
+    display:flex
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 600px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.icons{
+    display: flex;
+    height: 20px;
+    width:20px;
+    justify-content: space-between;
+    margin-right: 50px;
+  
+}
+.dropdown {
+    position: relative;
+    display: flex;
+ 
+  }
+  #bell{
+margin-left: 10px;
+  }
+  #account{
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  

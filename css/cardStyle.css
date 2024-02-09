@@ -1,0 +1,45 @@
+.main-card{
+    height: fit-content;
+    width:400px;
+    background-color:rgb(71, 71, 245);
+}
+.card-up{
+    height: 50%;
+    width: 100%;
+}
+#image{
+    height: 100%;
+    width: 100%;
+}
+
+
+.first-half{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+button{
+  cursor: pointer;
+  outline: 0;
+  color: #AAA;
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+.btn{
+  height:50px;
+  width: 70px;
+}
