@@ -66,13 +66,7 @@ const Video = () => {
               directed by P. Vasu, and produced by Subaskaran Allirajah under the banner of Lyca Productions. It is a
               sequel to Chandramukhi (2005). The film stars Raghava Lawrence in dual roles alongside Kangana Ranaut and
               Lakshmi Menon in the principal roles along with an ensemble supporting cast, that includes Vadivelu who
-              reprises his role from the predecessor, Radhika Sarathkumar, Mahima Nambiar, Srushti Dange, Rao Ramesh,
-              Subiksha Krishnan, Suresh Chandra Menon, Ravi Mariya, Vignesh, and Y. G. Mahendran in pivotal roles.
-              The film was officially announced in 2020 with Sun Pictures producing, though by June 2022 Lyca had taken
-              over production. Principal photography began in that July, and wrapped by mid-August 2023. The music is
-              composed by M. M. Keeravani, while the cinematography and editing are handled by R. D. Rajasekhar and
-              Anthony, respectively. Chandramukhi 2 was released on 28 September 2023 to negative reviews from critics,
-              and emerged as major commercial failure.
+              reprises his role from the predecessor
             </p>
           </div>
         </div>
