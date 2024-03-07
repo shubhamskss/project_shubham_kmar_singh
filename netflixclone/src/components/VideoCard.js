@@ -1,15 +1,19 @@
 import { useState } from "react";
-
+import { addLikes, reduceLikes } from "../Redux/slice";
+import { useDispatch,useSelector } from "react-redux";
 const Video = () => {
-  const [count, setCount] = useState(50);
+  const dispatch=useDispatch()
+  // const [count, setCount] = useState(50);
   const [modalOpen, setModalOpen] = useState(false);
 
   const increaseLike = () => {
-    setCount(count + 1);
+    // setCount(count + 1);
+    dispatch(addLikes())
   };
 
   const decreaseLike = () => {
-    setCount(count - 1);
+    // setCount(count - 1);
+    dispatch(reduceLikes())
   };
 
   const openModal = () => {
@@ -19,7 +23,7 @@ const Video = () => {
   const closeModal = () => {
     setModalOpen(false);
   };
-
+const count=useSelector((store)=>store.toggle.items)
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg relative">
       <img
